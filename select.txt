@@ -50,3 +50,24 @@ abstracts-retrieval-response.affiliation[0].affiliation-country
 
 References
 abstracts-retrieval-response.item.bibrecord.tail.bibliography.reference[0].ref-info.refd-itemidlist.itemid[0].$
+
+
+
+#Column ที่สำคัญสำหรับการไปใช้ต่อ
+
+abstracts-retrieval-response.item.bibrecord.item-info.itemidlist.itemid //เอา SGR เป็นหลัก (ใช้ดู reference)
+abstracts-retrieval-response.item.bibrecord.tail.bibliography.reference[0].ref-info.refd-itemidlist.itemid //เอา SGR เป็นหลัก (ใช้ดู reference)
+
+abstracts-retrieval-response.subject-areas.subject-area //ดูจำนวน subject แต่ละอัน ในแต่ละปี
+abstracts-retrieval-response.coredata.prism:coverDate //ดูปี
+abstracts-retrieval-response.coredata.prism:aggregationType // เผื่อดูแยกแต่ละประเภทการตีพิมพ์
+
+abstracts-retrieval-response.coredata.prism:publicationName // แบ่งตามชื่อวารสาร
+abstracts-retrieval-response.coredata.prism:aggregationType
+abstracts-retrieval-response.coredata.citedby-count // เอามาคำนวณ impact factor
+Impact factor คือ จำนวณ citation ทั้งหมดของวารสารนั้นๆ / จำนวน article ที่อยู่ในวารสารนั้น 
+
+Impact Factor (IF)= 
+Number of Articles in Journal / Sum of Citations for All Articles in Journal
+​
+ 
