@@ -13,11 +13,9 @@ st.title('Data Visualization')
 
 # Load data
 @st.cache_data
-# ใส่ตรงนี้เลยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยยย
 def load_Topic_Distribution_Data():
-    return pd.read_csv("ใส่ file path here pls")
+    return pd.read_csv("./output/Topic_Distribution_Data/Topic_Distribution.csv")
 df_Topic_Distribution_Data = load_Topic_Distribution_Data()
-# บนนี้ๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆ
 def load_Citedby_Prediction_Data():
     return pd.read_csv("./output/Citedby_Prediction_Data.csv/part-00000-5ec6ac9c-e7d2-4c0a-9c7d-ca4ddfdff8c7-c000.csv")
 df_Citedby_Prediction_Data = load_Citedby_Prediction_Data()
